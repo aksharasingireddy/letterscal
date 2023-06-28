@@ -1,0 +1,54 @@
+/* Write your code here. */
+
+.letter-calculator-bg {
+  min-height: 100vh;
+  background: linear-gradient(to right, #1d976c, #93f9b9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  color: #ffffff;
+  padding: 30px;
+}
+.letter-calculator-img {
+  width: 70%;
+}
+.letter-calculator-txt-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.letter-calculator-label-txt {
+  font-size: 12px;
+  font-weight: 500;
+}
+.letter-calculator-input {
+  background-color: #00000000;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  width: 200px;
+  padding: 10px;
+  outline: none;
+  font-size: 16px;
+}
+.letter-calculator-counter {
+  width: 200px;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #fff;
+  color: #219a6f;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+@media (min-width: 768px) {
+  .letter-calculator-bg {
+    flex-direction: row;
+  }
+  .letter-calculator-txt-con {
+    width: 50vw;
+    order: -1;
+  }
+}
